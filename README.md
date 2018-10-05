@@ -3,6 +3,7 @@
 ## Packages
 
 ## Motivation
+Utilize a web app to visualize the results from a machine learning pipeline.
 
 ## Files
 
