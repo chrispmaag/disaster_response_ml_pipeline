@@ -73,7 +73,7 @@ def build_model():
     ])
 
     # Use grid search to find better parameters
-    parameters = {'clf__estimator__max_depth': [5, 10], 'clf__estimator__min_samples_split': [2, 3]}
+    parameters = {'clf__estimator__min_samples_split': [2, 4], 'vect__ngram_range': [(1, 1), (1, 2)]}
 
     # Add n_jobs=-1 to use all processors to try to get a speed up in the time this step takes
     cv = GridSearchCV(pipeline, param_grid=parameters, n_jobs=-1)
