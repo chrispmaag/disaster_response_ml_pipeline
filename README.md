@@ -1,13 +1,32 @@
-# Disaster Response Pipeline Project
+# Disaster Response Machine Learning Pipeline Project
 
-## Packages
+## Libraries
+Primary libraries are nltk, pandas, sqlalchemy, and sklearn options for feature extraction and pipelines.
+For the web app, Flask and plotly are the main libraries.
 
 ## Motivation
-Utilize a web app to visualize the results from a machine learning pipeline.
+The goal of this project is to classify messages sent during a disaster to one of 36 categories so that help can be
+sent as soon as possible if needed.
 
 ## Files
 
+There are three main files:
+
+**models/train_classifier.py**
+
+Python script that classifies text messages into categories.
+
+**data/process_data.py**
+
+Python script that loads data, cleans it up, and then saves it to a SQL database.
+
+**app/run.py**
+
+Creates the Plotly charts used in the web app.
+
 ## Results
+Created a multi-ouptut text classifier that runs as a web app, which would enable aid organizations to quickly process
+social media messages during natural disasters to target their responses to those most in need.
 
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
