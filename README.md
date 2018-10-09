@@ -9,7 +9,7 @@ For the web app, Flask and plotly are the main libraries.
 
 ## Motivation
 
-![Category Distribution](images/category_distribtion.png "Category Distribution")
+![Category Distribution](images/category_distribution.png "Category Distribution")
 
 The goal of this project is to classify messages sent during a disaster to one of 36 categories so that help can be
 sent as soon as possible if needed.
